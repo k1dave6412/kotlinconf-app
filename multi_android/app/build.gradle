@@ -44,7 +44,7 @@ android {
 }
 
 dependencies {
-    implementation project(':common')
+    implementation project(':multi_common')
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:multidex:1.0.3'
     // On 28 up to 28.0.0-rc2 there is a problem with image display on FAB.
